@@ -7,11 +7,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 public class Korzina {
-<---Это скприпт проверкии
+
     @Test
     public void buy() throws InterruptedException {
         WebDriver driver = new FirefoxDriver();
-        driver.navigate().to("http://hm-decor.com.ua");
+        driver.navigate().to("http://hm-decor.com.u");
         driver.findElement(By.cssSelector("h3.name")).click();
         driver.findElement(By.id("button-cart")).click();
         driver.findElement(By.id("cart-total")).click();
@@ -19,16 +19,5 @@ public class Korzina {
         Thread.sleep(5000);
         driver.close();
     }
-Конец проверки
 
 }
-Начала дддддддд
-
-
-
-
-        аоаоававыа
-
-
-
-аваыа
